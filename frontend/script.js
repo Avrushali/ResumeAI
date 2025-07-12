@@ -1,6 +1,6 @@
 const FASTAPI_CLASSIFY_URL = "/api/classify";
 const FASTAPI_RECOMMEND_JOBS_URL = "/api/recommend_jobs";
-const FASTAPI_EXTRACT_PDF_URL = "/api/extract_pdf_text";
+const FASTAPI_EXTRACT_PDF_URL = "https://resume-ai-iday.vercel.app/extract_pdf_text";
 
 const radioPaste = document.getElementById("radioPaste");
 const radioUpload = document.getElementById("radioUpload");
