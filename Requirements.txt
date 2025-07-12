@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+python-multipart
+pdfminer.six
+numpy
+pandas
+nltk
+scikit-learn
+python-dotenv
+streamlit
+requests
+pdfplumber

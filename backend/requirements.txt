@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+scikit-learn
+joblib
+nltk
+numpy
+gensim          # <--- NEW: for Word2Vec
+uvicorn[standard]

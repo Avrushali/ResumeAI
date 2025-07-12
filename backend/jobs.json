@@ -1,0 +1,219 @@
+[
+    {
+      "category": "INFORMATION-TECHNOLOGY",
+      "personas": {
+        "starter": ["Junior Software Developer", "IT Support Technician", "QA Tester"],
+        "mid_level_pro": ["Software Engineer", "Systems Analyst", "DevOps Engineer"],
+        "expert": ["Lead Developer", "IT Manager", "Cloud Solutions Architect"],
+        "specialist": ["AI Engineer", "Cybersecurity Specialist", "Data Scientist"]
+      }
+    },
+    {
+      "category": "BUSINESS-DEVELOPMENT",
+      "personas": {
+        "starter": ["Sales Trainee", "Business Development Intern", "Junior Executive"],
+        "mid_level_pro": ["Business Development Executive", "Account Manager", "Partnerships Associate"],
+        "expert": ["Business Development Manager", "Strategic Partnerships Director", "Head of Growth"],
+        "specialist": ["B2B Sales Strategist", "Growth Marketing Consultant", "Sales Enablement Lead"]
+      }
+    },
+    {
+      "category": "FINANCE",
+      "personas": {
+        "starter": ["Accounts Assistant", "Junior Financial Analyst", "Billing Executive"],
+        "mid_level_pro": ["Financial Analyst", "Risk Analyst", "Investment Associate"],
+        "expert": ["Finance Manager", "Senior Investment Banker", "Portfolio Strategist"],
+        "specialist": ["Forensic Accountant", "Tax Consultant", "Valuation Expert"]
+      }
+    },
+    {
+      "category": "ADVOCATE",
+      "personas": {
+        "starter": ["Legal Intern", "Junior Advocate", "Legal Trainee"],
+        "mid_level_pro": ["Legal Associate", "In-house Counsel", "Case Researcher"],
+        "expert": ["Senior Advocate", "Legal Advisor", "Head of Legal Affairs"],
+        "specialist": ["Corporate Lawyer", "Intellectual Property Lawyer", "Criminal Law Specialist"]
+      }
+    },
+    {
+      "category": "ACCOUNTANT",
+      "personas": {
+        "starter": ["Accounts Trainee", "Junior Accountant", "Billing Clerk"],
+        "mid_level_pro": ["Accountant", "Auditor", "Tax Analyst"],
+        "expert": ["Finance Controller", "Senior Accountant", "Head of Accounting"],
+        "specialist": ["Chartered Accountant", "Forensic Auditor", "GST Expert"]
+      }
+    },
+    {
+      "category": "ENGINEERING",
+      "personas": {
+        "starter": ["Trainee Engineer", "Junior Mechanical Engineer", "Engineering Intern"],
+        "mid_level_pro": ["Civil Engineer", "Design Engineer", "Project Engineer"],
+        "expert": ["Engineering Manager", "Senior Structural Engineer", "Plant Manager"],
+        "specialist": ["Automation Engineer", "CAD Specialist", "HVAC Design Expert"]
+      }
+    },
+    {
+      "category": "CHEF",
+      "personas": {
+        "starter": ["Commis Chef", "Kitchen Assistant", "Trainee Cook"],
+        "mid_level_pro": ["Sous Chef", "Line Cook", "Pastry Chef"],
+        "expert": ["Executive Chef", "Head Chef", "Culinary Director"],
+        "specialist": ["Food Stylist", "Michelin-Star Chef", "Nutrition-Focused Chef"]
+      }
+    },
+    {
+      "category": "AVIATION",
+      "personas": {
+        "starter": ["Cabin Crew Trainee", "Ground Staff", "Aviation Intern"],
+        "mid_level_pro": ["Cabin Crew", "Flight Attendant", "Maintenance Technician"],
+        "expert": ["Pilot", "Flight Operations Manager", "Air Traffic Controller"],
+        "specialist": ["Aircraft Maintenance Engineer", "Helicopter Pilot", "Aviation Safety Expert"]
+      }
+    },
+    {
+      "category": "FITNESS",
+      "personas": {
+        "starter": ["Fitness Intern", "Gym Assistant", "Trainee Personal Trainer"],
+        "mid_level_pro": ["Personal Trainer", "Fitness Coach", "Yoga Instructor"],
+        "expert": ["Head Trainer", "Fitness Center Manager", "Athletic Performance Coach"],
+        "specialist": ["Sports Nutritionist", "Strength and Conditioning Expert", "Rehabilitation Trainer"]
+      }
+    },
+    {
+      "category": "SALES",
+      "personas": {
+        "starter": ["Sales Associate", "Trainee Sales Executive", "Retail Promoter"],
+        "mid_level_pro": ["Sales Executive", "Territory Manager", "Inside Sales Representative"],
+        "expert": ["Regional Sales Manager", "National Sales Director", "VP of Sales"],
+        "specialist": ["Sales Trainer", "Solution Sales Expert", "Channel Sales Consultant"]
+      }
+    },
+    {
+      "category": "BANKING",
+      "personas": {
+        "starter": ["Bank Teller", "Customer Support Executive", "KYC Assistant"],
+        "mid_level_pro": ["Relationship Manager", "Loan Officer", "Operations Executive"],
+        "expert": ["Branch Manager", "Wealth Manager", "Compliance Officer"],
+        "specialist": ["Credit Risk Analyst", "Investment Banker", "Trade Finance Expert"]
+      }
+    },
+    {
+      "category": "HEALTHCARE",
+      "personas": {
+        "starter": ["Nursing Assistant", "Medical Receptionist", "Healthcare Intern"],
+        "mid_level_pro": ["Registered Nurse", "Lab Technician", "Physician Assistant"],
+        "expert": ["Medical Officer", "Senior Radiologist", "Hospital Administrator"],
+        "specialist": ["Cardiologist", "Anesthesiologist", "Surgical Consultant"]
+      }
+    },
+    {
+      "category": "CONSULTANT",
+      "personas": {
+        "starter": ["Junior Consultant", "Business Analyst Intern", "Research Assistant"],
+        "mid_level_pro": ["Consultant", "Project Consultant", "Advisory Associate"],
+        "expert": ["Senior Consultant", "Strategy Manager", "Practice Lead"],
+        "specialist": ["IT Consultant", "HR Consultant", "Financial Advisor"]
+      }
+    },
+    {
+      "category": "CONSTRUCTION",
+      "personas": {
+        "starter": ["Construction Helper", "Site Assistant", "Intern Engineer"],
+        "mid_level_pro": ["Site Engineer", "Quantity Surveyor", "Construction Foreman"],
+        "expert": ["Project Manager", "Construction Superintendent", "Contracts Manager"],
+        "specialist": ["Safety Officer", "Structural Consultant", "MEP Engineer"]
+      }
+    },
+    {
+      "category": "PUBLIC-RELATIONS",
+      "personas": {
+        "starter": ["PR Intern", "Junior Communications Assistant", "Content Coordinator"],
+        "mid_level_pro": ["PR Executive", "Media Relations Officer", "Communications Manager"],
+        "expert": ["Senior PR Manager", "Corporate Communications Lead", "PR Director"],
+        "specialist": ["Crisis Communication Expert", "Brand Strategist", "Public Affairs Consultant"]
+      }
+    },
+    {
+      "category": "HR",
+      "personas": {
+        "starter": ["HR Intern", "Recruitment Assistant", "HR Trainee"],
+        "mid_level_pro": ["HR Executive", "Talent Acquisition Specialist", "Employee Relations Coordinator"],
+        "expert": ["HR Manager", "Compensation & Benefits Manager", "HR Business Partner"],
+        "specialist": ["Organizational Development Consultant", "L&D Specialist", "Diversity & Inclusion Officer"]
+      }
+    },
+    {
+      "category": "DESIGNER",
+      "personas": {
+        "starter": ["Design Intern", "Junior Graphic Designer", "Assistant UI Designer"],
+        "mid_level_pro": ["Graphic Designer", "UX/UI Designer", "Product Designer"],
+        "expert": ["Creative Director", "Lead Designer", "Design Manager"],
+        "specialist": ["Motion Graphics Artist", "Interaction Designer", "Brand Identity Specialist"]
+      }
+    },
+    {
+      "category": "ARTS",
+      "personas": {
+        "starter": ["Art Intern", "Sketch Artist", "Gallery Assistant"],
+        "mid_level_pro": ["Illustrator", "Art Instructor", "Fine Artist"],
+        "expert": ["Art Director", "Senior Curator", "Studio Manager"],
+        "specialist": ["Concept Artist", "Installation Artist", "Visual Storyteller"]
+      }
+    },
+    {
+      "category": "TEACHER",
+      "personas": {
+        "starter": ["Assistant Teacher", "Teaching Intern", "Primary School Trainee"],
+        "mid_level_pro": ["Subject Teacher", "High School Teacher", "Special Education Teacher"],
+        "expert": ["Academic Coordinator", "Head of Department", "Principal"],
+        "specialist": ["Curriculum Designer", "EdTech Consultant", "Test Prep Specialist"]
+      }
+    },
+    {
+      "category": "APPAREL",
+      "personas": {
+        "starter": ["Garment Assistant", "Fabric Trainee", "Textile Intern"],
+        "mid_level_pro": ["Fashion Designer", "Merchandiser", "Pattern Cutter"],
+        "expert": ["Senior Fashion Designer", "Production Manager", "Brand Manager (Apparel)"],
+        "specialist": ["Textile Technologist", "Costume Designer", "Apparel Quality Expert"]
+      }
+    },
+    {
+      "category": "DIGITAL-MEDIA",
+      "personas": {
+        "starter": ["Content Intern", "Junior Video Editor", "Social Media Trainee"],
+        "mid_level_pro": ["Digital Marketing Executive", "Content Strategist", "Social Media Manager"],
+        "expert": ["Digital Marketing Manager", "Creative Strategist", "Online Brand Manager"],
+        "specialist": ["SEO Expert", "Performance Marketer", "Influencer Relations Manager"]
+      }
+    },
+    {
+      "category": "AGRICULTURE",
+      "personas": {
+        "starter": ["Field Assistant", "Agri Intern", "Farm Support Staff"],
+        "mid_level_pro": ["Agricultural Technician", "Farm Supervisor", "Soil Analyst"],
+        "expert": ["Agri Operations Manager", "Agro Scientist", "Farming Project Manager"],
+        "specialist": ["Agronomist", "Horticulture Expert", "Agri-Business Consultant"]
+      }
+    },
+    {
+      "category": "AUTOMOBILE",
+      "personas": {
+        "starter": ["Mechanic Trainee", "Service Assistant", "Auto Technician Intern"],
+        "mid_level_pro": ["Vehicle Technician", "Automobile Engineer", "Service Supervisor"],
+        "expert": ["Workshop Manager", "Production Manager (Auto)", "Auto Plant Engineer"],
+        "specialist": ["Auto Electrician", "Performance Testing Engineer", "Vehicle Design Expert"]
+      }
+    },
+    {
+      "category": "BPO",
+      "personas": {
+        "starter": ["Voice Process Associate", "Customer Support Executive", "Data Entry Operator"],
+        "mid_level_pro": ["Team Leader", "Process Analyst", "BPO Trainer"],
+        "expert": ["Operations Manager", "BPO Account Manager", "Workforce Manager"],
+        "specialist": ["Quality Analyst", "Client Relationship Expert", "Process Optimization Consultant"]
+      }
+    }
+]
+    

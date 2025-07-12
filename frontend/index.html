@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Resume Analyzer & Job Recommender</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="light-mode">
+
+    <!-- 🔹 Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <div class="navbar-brand">ResumeAI</div>
+            <ul class="navbar-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#formSection">Analyze Resume</a></li>
+                <li><a href="#about">About Us</a></li>
+            </ul>
+        </div>
+
+        <!-- Theme Toggle Switch -->
+        <label class="switch">
+            <input id="themeSwitcher" class="switch__input" type="checkbox" role="switch" aria-label="Toggle dark mode">
+            <svg class="switch__icon switch__icon--light" viewBox="0 0 12 12" width="12" height="12" aria-hidden="true">
+                <g fill="none" stroke="#fff" stroke-width="1" stroke-linecap="round">
+                    <circle cx="6" cy="6" r="2" />
+                    <g stroke-dasharray="1.5 1.5">
+                        <polyline points="6 10,6 11.5" transform="rotate(0,6,6)" />
+                        <polyline points="6 10,6 11.5" transform="rotate(45,6,6)" />
+                        <polyline points="6 10,6 11.5" transform="rotate(90,6,6)" />
+                        <polyline points="6 10,6 11.5" transform="rotate(135,6,6)" />
+                        <polyline points="6 10,6 11.5" transform="rotate(180,6,6)" />
+                        <polyline points="6 10,6 11.5" transform="rotate(225,6,6)" />
+                        <polyline points="6 10,6 11.5" transform="rotate(270,6,6)" />
+                        <polyline points="6 10,6 11.5" transform="rotate(315,6,6)" />
+                    </g>
+                </g>
+            </svg>
+            <svg class="switch__icon switch__icon--dark" viewBox="0 0 12 12" width="12" height="12" aria-hidden="true">
+                <g fill="none" stroke="#fff" stroke-width="1" stroke-linejoin="round" transform="rotate(-45,6,6)">
+                    <path
+                        d="m9,10c-2.209,0-4-1.791-4-4s1.791-4,4-4c.304,0,.598.041.883.105-.995-.992-2.367-1.605-3.883-1.605C2.962.5.5,2.962.5,6s2.462,5.5,5.5,5.5c1.516,0,2.888-.613,3.883-1.605-.285.064-.578.105-.883.105Z" />
+                </g>
+            </svg>
+        </label>
+    </nav>
+
+    <!-- 🔸 Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="hero-content">
+            <h1 class="hero-title-no-box">Unlock Your Career Potential with AI</h1>
+            <div class="hero-subtitle-box">
+                <p class="hero-subtitle">Stop guessing. Start applying. Our AI-powered analyzer matches your resume to
+                    the perfect job, instantly.</p>
+            </div>
+            <button class="hero-btn action-button" onclick="scrollToForm()">✨ Analyze Your Resume Now</button>
+        </div>
+    </section>
+
+    <!-- 🔸 Main Form & Services -->
+    <main>
+        <!-- 🔸 Features Section -->
+        <section id="features" class="features-section">
+            <h2>Core Features</h2>
+            <div class="feature-cards-container">
+                <div class="feature-card">
+                    <h4>🤖 AI-Powered Analysis</h4>
+                    <p>Our system uses advanced AI to understand the nuances of your skills and experience, ensuring an
+                        accurate classification.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>🚀 Instant Job Matching</h4>
+                    <p>Receive a curated list of job recommendations that align with your predicted career path and
+                        experience level in seconds.</p>
+                </div>
+                <div class="feature-card">
+                    <h4>📈 Experience-Level Recognition</h4>
+                    <p>We identify your experience level—from entry-level to specialist—to find jobs that match your
+                        seniority.</p>
+                </div>
+            </div>
+        </section>
+
+
+
+        </section>
+
+        <!-- 🔸 Static Logo Section -->
+        <section class="static-logo-section">
+            <h2 class="scroller-title">Trusted by Professionals on Top Platforms</h2>
+            <div class="logo-grid">
+                <div class="logo-item">
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <img src="./assets/link.svg" alt="LinkedIn" />
+                    </a>
+                </div>
+                <div class="logo-item">
+                    <a href="https://www.glassdoor.com/" target="_blank">
+                        <img src="./assets/glassdoor.svg" alt="Glassdoor" />
+                    </a>
+                </div>
+                <div class="logo-item">
+                    <a href="https://www.indeed.com/" target="_blank">
+                        <img src="./assets/Indeed_logo.svg" alt="Indeed" />
+                    </a>
+                </div>
+                <div class="logo-item">
+                    <a href="https://www.naukri.com/" target="_blank">
+                        <img src="./assets/Naukri.svg" alt="Naukri" />
+                    </a>
+                </div>
+                <div class="logo-item">
+                    <a href="https://www.workindia.in/" target="_blank">
+                        <img src="./assets/workindia.jpeg" alt="Workindia" />
+                    </a>
+                </div>
+                <div class="logo-item">
+                    <a href="https://apna.co/" target="_blank">
+                        <img src="./assets/apna.jpeg" alt="Apna Jobs" />
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works" id="how-it-works">
+            <h2>🔍 How It Works</h2>
+            <div class="how-steps">
+                <div class="step-card">
+                    <h4>1. Provide Your Resume</h4>
+                    <p>Simply upload your resume as a PDF or paste the text directly into the input field.</p>
+                </div>
+                <div class="step-card">
+                    <h4>2. Let AI Do the Work</h4>
+                    <p>Our algorithm analyzes your resume's content to identify your professional field and years of
+                        experience.</p>
+                </div>
+                <div class="step-card">
+                    <h4>3. Get Matched with Jobs</h4>
+                    <p>Instantly view job openings that are highly relevant to your unique skills and career level.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="resume-input">
+            <h2>📝 Provide Your Resume Content</h2>
+            <p class="section-description">Paste your resume or upload a PDF. Our system will analyze and suggest jobs
+                based on your profile.</p>
+
+            <div class="input-card">
+                <div class="input-method-selector">
+                    <input type="radio" id="radioPaste" name="inputMethod" value="paste" checked />
+                    <label for="radioPaste">Paste Text</label>
+                    <input type="radio" id="radioUpload" name="inputMethod" value="upload" />
+                    <label for="radioUpload">Upload PDF</label>
+                </div>
+
+                <div id="pasteTextInput">
+                    <textarea id="resumeTextArea" placeholder="Paste your resume here..."></textarea>
+                </div>
+
+                <div id="uploadPdfInput" class="file-upload-area hidden">
+                    <label for="pdfFileInput" class="custom-file-upload">
+                        <span>📁 Click to Choose or Drop Your PDF Resume</span>
+                        <input type="file" id="pdfFileInput" accept=".pdf" />
+                    </label>
+                    <p class="file-upload-info" id="fileName">No file selected.</p>
+                </div>
+
+                <button class="hero-btn action-button" id="analyzeButton">✨ Classify Resume & Find Jobs</button>
+                <div id="loadingSpinner" class="spinner hidden"></div>
+                <div id="messageDisplay"></div>
+            </div>
+        </section>
+
+        <section id="resultsSection" class="results-section fade-in hidden">
+            <h2>🚀 Analysis Results & Recommended Jobs</h2>
+            <p class="category-display" id="predictedCategoryDisplay"></p>
+            <div id="jobList" class="job-list"></div>
+        </section>
+
+        <!-- 🔸 About Us Section -->
+        <section id="about" class="about-us">
+            <h2>👩‍💻 About Us</h2>
+            <p>This project was built by an enthusiastic team of developers:</p>
+            <div class="team-cards-container">
+                <div class="team-card">
+                    <img src="./assets/vrushali.jpg" alt="Profile picture of Vrushali" class="team-photo">
+                    <h3>Vrushali Avhad</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="./assets/ketki.jpeg" alt="Profile picture of Ketki" class="team-photo">
+                    <h3>Ketki Kulkarni</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="./assets/upasna.jpeg" alt="Profile picture of Upasna" class="team-photo">
+                    <h3>Upasna Bhostekar</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="./assets/chaitanya.jpeg" alt="Profile picture of Chaitanya" class="team-photo">
+                    <h3>Chaitanya Tikone</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="./assets/janhvi.jpeg" alt="Profile picture of Janvi" class="team-photo">
+                    <h3>Janvi Talreja</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="./assets/janhvi.jpeg" alt="Profile picture of Janhvi" class="team-photo">
+                    <h3>Janhvi Gholave</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>💡 Powered by FastAPI backend. All classification and job matching is done server-side.</p>
+        </footer>
+    </main>
+
+    <!-- 🔸 Scripts -->
+    <script src="script.js"></script>
+    <script>
+        function scrollToForm() {
+            document.getElementById('formSection').scrollIntoView({ behavior: 'smooth' });
+        }
+
+
+    </script>
+</body>
+
+</html>
