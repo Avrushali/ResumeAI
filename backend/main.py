@@ -64,10 +64,19 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+import kagglehub
+
 # --- Model Paths (Relative to main.py) ---
 WORD2VEC_MODEL_PATH = "models/GoogleNews-vectors-negative300.bin"
 CLASSIFIER_MODEL_PATH = "models/voting_classifier.pkl"
 JOBS_PERSONAS_DATA_PATH = "jobs.json"
+
+# --- Download model from Kaggle Hub ---
+print("Downloading dataset from Kaggle Hub...")
+path = kagglehub.dataset_download("leadbest/googlenewsvectorsnegative300")
+print(f"Dataset downloaded to: {path}")
+WORD2VEC_MODEL_PATH = os.path.join(path, "GoogleNews-vectors-negative300.bin")
+
 
 # --- Global Variables for Models and Data ---
 w2v_model = None

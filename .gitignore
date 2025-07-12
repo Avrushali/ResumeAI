@@ -1,0 +1,4 @@
+backend/models/GoogleNews-vectors-negative300.bin
+*.bin
+backend/venv_fastapi/
+.venv/
