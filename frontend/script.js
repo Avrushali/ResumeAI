@@ -1,4 +1,4 @@
-const FASTAPI_CLASSIFY_URL = "/classify";
+const FASTAPI_CLASSIFY_URL = "/api/classify";
 const FASTAPI_RECOMMEND_JOBS_URL = "/api/recommend_jobs";
 const FASTAPI_EXTRACT_PDF_URL = "/api/extract_pdf_text";
 
