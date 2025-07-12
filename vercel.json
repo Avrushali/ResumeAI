@@ -3,7 +3,7 @@
   "builds": [
     {
       "src": "backend/Dockerfile",
-      "use": "@vercel/docker"
+      "use": "@vercel/node"
     },
     {
       "src": "frontend/index.html",
@@ -13,7 +13,7 @@
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "backend/main.py"
+      "dest": "backend/Dockerfile"
     },
     {
       "src": "/(.*)",
