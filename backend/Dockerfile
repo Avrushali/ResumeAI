@@ -5,13 +5,13 @@ FROM python:3.11-slim-buster
 WORKDIR /app
 
 # Copy the requirements file into the container at /app
-COPY backend/requirements.txt .
+COPY requirements.txt .
 
 # Install any needed packages specified in requirements.txt
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application code
-COPY . /app
+# Copy the rest of the application code from the current build context (backend/) into /app
+COPY . .
 
 # Expose the port the app runs on
 EXPOSE 8000
@@ -19,5 +19,5 @@ EXPOSE 8000
 # Define environment variable for uvicorn
 ENV PORT 8000
 
-# Run the application using ENTRYPOINT
-ENTRYPOINT ["uvicorn", "backend.main:app", "--host", "0.0.0.0", "--port", "8000"]
+# Run the application
+CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
